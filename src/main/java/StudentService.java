@@ -10,6 +10,7 @@ public class StudentService {
         return repo.save(studentToSave);
     }
 
+
     public List<Student> getAllStudents(){
         return repo.getAllStudents();
     }
